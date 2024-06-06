@@ -1,7 +1,7 @@
 import { Component, input } from '@angular/core';
 import { CurrencyPipe } from '@angular/common';
 
-import { IAnnualInvestmentResult } from '../IAnnualInvestmentResult';
+import type { IAnnualInvestmentResult } from '../IAnnualInvestmentResult';
 
 @Component({
   selector: 'app-investment-results',

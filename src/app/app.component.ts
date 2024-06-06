@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 
-import { IAnnualInvestmentResult } from './IAnnualInvestmentResult';
+import type { IAnnualInvestmentResult } from './IAnnualInvestmentResult';
 import { HeaderComponent } from './header/header.component';
 import { InvestmentResultsComponent } from "./investment-results/investment-results.component";
 import { UserInputComponent } from "./user-input/user-input.component";

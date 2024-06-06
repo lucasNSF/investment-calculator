@@ -2,8 +2,8 @@ import { Component, inject, output, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { InvestmentCalculatorService } from '../investment-calculator.service';
-import { IAnnualInvestment } from '../IAnnualInvestment';
-import { IAnnualInvestmentResult } from '../IAnnualInvestmentResult';
+import type { IAnnualInvestment } from '../IAnnualInvestment';
+import type { IAnnualInvestmentResult } from '../IAnnualInvestmentResult';
 
 @Component({
   selector: 'app-user-input',
